@@ -1,7 +1,7 @@
 <?php 
 $dsn        = 'mysql:host=localhost;dbname=go;charset=utf8;';
-$user       = 'username';
-$password   = 'password';
+$user       = 'mtcomtr_msjtp';
+$password   = 'T-@&6v#Tr2]S';
 
 try {
     $dbh = new PDO($dsn, $user, $password);
@@ -22,7 +22,7 @@ if(!empty($search))
     }
     else 
     {
-        $sql .= " WHERE CONCAT_WS(' ', name, name)  LIKE '%{$search}%' ";
+        $sql .= " WHERE CONCAT_WS(' ', name, surname)  LIKE '%{$search}%' ";
     }
 }
 
