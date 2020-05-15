@@ -1,7 +1,7 @@
 <?php 
 $dsn        = 'mysql:host=localhost;dbname=go;charset=utf8;';
-$user       = 'mtcomtr_msjtp';
-$password   = 'T-@&6v#Tr2]S';
+$user       = 'username';
+$password   = 'password';
 
 try {
     $dbh = new PDO($dsn, $user, $password);
